@@ -56,13 +56,13 @@ h2 {
   text-transform: uppercase;
 }
 h3 {
-  font-family: "PT Serif Regular", "Times New Roman", serif;
+  font-family: "PT Serif Regular";
   font-size: 1em;
   line-height: 2em;
   color: #323232;
 }
 p {
-  font-family: "PT Sans Regular";
+  font-family: "PT Serif Regular";
   font-size: .875em;
   line-height: 1.75em;
   color: #323232;
