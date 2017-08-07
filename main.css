@@ -45,43 +45,52 @@ body {
   margin: 0;
 }
 h1 {
-  font-family: "PT Sans Narrow Bold", Helvetica, sans-serif;
+  font-family: 'PT Sans Narrow Bold', sans-serif;
   font-size: 1.875em;
   color: #323232;
 }
 h2 {
-  font-family: "PT Sans Narrow Bold", Helvetica, sans-serif;
+  font-family: 'PT Sans Narrow Bold', sans-serif;
   font-size: 1.5em;
   color: #00897f;
   text-transform: uppercase;
 }
 h3 {
-  font-family: "PT Serif Regular";
+  font-family: 'PT Serif Regular', serif;
   font-size: 1em;
   line-height: 2em;
   color: #323232;
 }
 p {
-  font-family: "PT Serif Regular";
+  font-family: 'PT Serif Regular', serif;
   font-size: .875em;
   line-height: 1.75em;
   color: #323232;
 }
-.main-nav {
-  display: inline;
+.header {
   padding: 20px;
 }
 
-.main-nav li h1 {
-  font-size: 5.0em;
+.nav {
+  width: 700px;
 }
-
-.main-nav li p {
-font-family: "PT Sans Regular";
-font-size: .9em;
-float: right;
+.nav-main li {
+  font-family: 'PT Sans-Serif', sans-serif;
+  display:inline-block;
 
 }
+.logo {
+  width: 385px;
+}
+.logo li h1 {
+  font-family: 'PT Sans-Serif Narrow Bold', sans-serif;
+  font-size: 1.5em;
+  color: #323232;
+}
+
+
+
+
 
 /* On devices wider than 660px */
 @media(min-width: 660px) {
