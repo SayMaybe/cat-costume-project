@@ -3,9 +3,9 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
   margin:0;
   padding:0;
 }
-html,body {
+html, body {
   margin:0;
-  padding:100;
+  padding:0px;
 }
 table {
   border-collapse:collapse;
@@ -44,6 +44,8 @@ abbr,acronym { border:0;
 body {
   margin: 0;
 }
+.container {
+}
 h1 {
   font-family: 'PT Sans Narrow Bold', sans-serif;
   font-size: 1.875em;
@@ -67,27 +69,50 @@ p {
   line-height: 1.75em;
   color: #323232;
 }
-.header {
-  padding: 20px;
-}
 
-.nav {
-  width: 700px;
-}
-.nav-main li {
-  font-family: 'PT Sans-Serif', sans-serif;
-  display:inline-block;
+.header {
+  height: 80px;
+  position: relative;
 
 }
 .logo {
-  width: 385px;
+  width: 50%;
+  position:absolute;
+  bottom: 20px;
+  left: 20px;
+
 }
-.logo li h1 {
+
+.nav {
+  width: 50%;
+  text-align: right;
+  position:absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.nav li {
+  font-family: 'PT Sans-Serif', sans-serif;
+  display:inline;
+}
+
+.logo h1 {
   font-family: 'PT Sans-Serif Narrow Bold', sans-serif;
   font-size: 1.5em;
   color: #323232;
 }
-
+.main {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+.main h1 {
+  padding-top:80px;
+  padding-bottom: 45px
+}
+.thumbnail {
+  width: 100%;
+}
 
 
 
