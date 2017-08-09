@@ -79,7 +79,7 @@ p {
   width: 50%;
   position:absolute;
   bottom: 20px;
-  left: 20px;
+  left: 40px;
 
 }
 
@@ -88,7 +88,7 @@ p {
   text-align: right;
   position:absolute;
   bottom: 20px;
-  right: 20px;
+  right: 80px;
 }
 
 .nav li {
@@ -112,6 +112,34 @@ p {
 }
 .thumbnail {
   width: 100%;
+}
+.about-container {
+  width: 700px;
+  margin: 20px auto;
+  padding: 10px;
+}
+.about-box {
+  width: 250px;
+  height: 250px;
+  padding: 30px;
+  margin: 20px;
+  background-color: #eeeeee;
+  float: left;
+}
+.group:before, .group:after {
+  content: " ";
+  display: table;
+}
+.group:after {
+  clear:both;
+}
+.contact {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+.about-box h2 {
+  padding-bottom: 25px;
 }
 
 
