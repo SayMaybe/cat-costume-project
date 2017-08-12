@@ -70,17 +70,16 @@ p {
   color: #323232;
 }
 
-.header {
+header {
   height: 80px;
   position: relative;
-
 }
+
 .logo {
   width: 50%;
   position:absolute;
   bottom: 20px;
   left: 40px;
-
 }
 
 .nav {
@@ -102,37 +101,36 @@ p {
   color: #323232;
 }
 .main {
-  width: 40%;
-  margin: auto;
+  width: 900px;
+  margin: 0 auto;
   text-align: center;
 }
 .main h1 {
   padding-top:80px;
   padding-bottom: 45px
 }
+.intro {
+  width: 500px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
 .thumbnail {
   width: 100%;
 }
 .about-container {
   width: 700px;
-  margin: 20px auto;
-  padding: 10px;
+  margin: 0 auto;
+  padding: 0px;
 }
 .about-box {
   width: 250px;
   height: 250px;
   padding: 30px;
-  margin: 20px;
+  margin: 60px 20px 60px 20px;
   background-color: #eeeeee;
   float: left;
 }
-.group:before, .group:after {
-  content: " ";
-  display: table;
-}
-.group:after {
-  clear:both;
-}
+
 .contact {
   width: 40%;
   margin: auto;
@@ -142,7 +140,23 @@ p {
   padding-bottom: 25px;
 }
 
-
+.group:before, .group:after {
+  content: " ";
+  display: table;
+}
+.group:after {
+  clear:both;
+}
+.img {
+  width: 875px;
+  text-align:center;
+}
+.img li {
+  display: inline;
+}
+.img li img {
+  border-radius: 50%;
+}
 
 
 /* On devices wider than 660px */
