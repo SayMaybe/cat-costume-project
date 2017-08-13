@@ -158,6 +158,10 @@ header {
   margin: 80px auto;
   padding: 0;
 }
+.contact-container h1 {
+  text-align: center;
+  padding-top: 60px;
+}
 .contact-box {
   background-color: #fff;
   width: 250px;
