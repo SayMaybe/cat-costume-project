@@ -120,22 +120,17 @@ header {
 .about-container {
   width: 700px;
   margin: 0 auto;
-  padding: 0px;
+  padding: 0;
 }
 .about-box {
   width: 250px;
-  height: 250px;
+  height: 225px;
   padding: 30px;
   margin: 60px 20px 60px 20px;
   background-color: #eeeeee;
   float: left;
 }
 
-.contact {
-  width: 40%;
-  margin: auto;
-  text-align: center;
-}
 .about-box h2 {
   padding-bottom: 25px;
 }
@@ -153,11 +148,24 @@ header {
 }
 .img li {
   display: inline;
+  margin: 20px;
 }
 .img li img {
   border-radius: 50%;
 }
-
+.contact-container {
+  width: 700px;
+  margin: 0 auto;
+  padding: 0;
+}
+.contact-box {
+  width: 250px;
+  height: 225px;
+  padding: 30px;
+  margin: 60px 20px 60px 20px;
+  background-color: #eeeeee;
+  float: left;
+}
 
 /* On devices wider than 660px */
 @media(min-width: 660px) {
