@@ -178,6 +178,11 @@ footer {
   height: 125px;
   text-align: center;
 }
+footer h1 {
+  font-size: 1.5em;
+  color: #fff;
+  padding-top: 25px;
+}
 
 /* On devices wider than 660px */
 @media(min-width: 660px) {
