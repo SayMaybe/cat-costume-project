@@ -155,7 +155,7 @@ header {
 .contact-container {
   background-color: #eeeeee;
   width: 700px;
-  margin: 80px auto;
+  margin: 80px auto 0 auto;
   padding: 0;
 }
 .contact-container h1 {
@@ -167,7 +167,7 @@ header {
   width: 250px;
   height: 125px;
   padding: 30px;
-  margin: 60px 20px 60px 20px;
+  margin: 30px 20px 60px 20px;
   float: left;
 }
 .contact-box h2 {
