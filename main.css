@@ -172,15 +172,13 @@ header {
 }
 .contact-box h2 {
   padding-bottom: 25px;
+}
+footer {
+  background-color: #00897f;
+  height: 125px;
+  text-align: center;
+}
 
-}
-.group:before, .group:after {
-  content: " ";
-  display: table;
-}
-.group:after {
-  clear:both;
-}
 /* On devices wider than 660px */
 @media(min-width: 660px) {
 }
