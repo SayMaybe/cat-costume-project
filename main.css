@@ -46,8 +46,10 @@ abbr,acronym { border:0;
   margin: 50px 100px 50px 100px;
   width:100%;
 }*/
-.container {
-  width:100%;
+@media only screen and (min-width: 961px) {
+  .container {
+    width: 1230px;
+    margin: 0 auto;
 }
 h1 {
   font-family: 'PT Sans Narrow Bold', sans-serif;
@@ -104,8 +106,8 @@ header {
   color: #323232;
 }
 .main {
-  width: 900px;
-  margin: 0 auto;
+  width: 100%;
+  display: inline-block;
   text-align: center;
 }
 .main h1 {
@@ -113,9 +115,9 @@ header {
   padding-bottom: 45px
 }
 .intro {
-  width: 500px;
-  margin-left: 200px;
-  margin-right: 200px;
+  width: 40%;
+  display: inline-block;
+
 }
 .thumbnail {
   width: 100%;
