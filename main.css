@@ -71,23 +71,23 @@ p {
 }
 
 header {
-  height: 80px;
+  height: 6.504065%;
   position: relative;
 }
 
 .logo {
   width: 50%;
   position:absolute;
-  bottom: 20px;
-  left: 40px;
+  bottom: 20%;
+  left: 3.25%;
 }
 
 .nav {
   width: 50%;
   text-align: right;
   position:absolute;
-  bottom: 20px;
-  right: 80px;
+  bottom: 20%;
+  right: 6.5%
 }
 
 .nav li {
@@ -106,8 +106,8 @@ header {
   text-align: center;
 }
 .main h1 {
-  padding-top:80px;
-  padding-bottom: 45px
+  padding-top:6.5%;
+  padding-bottom: 3.75%
 }
 .intro {
   width: 40%;
@@ -117,8 +117,11 @@ header {
 .thumbnail {
   width: 100%;
 }
+.cat-thumbnail {
+  width:28%;
+}
 .about-container {
-  width: 47.967479%;
+  width: 48%;
   max-width: 700px;
   margin: 0 auto;
   padding: 0;
@@ -126,8 +129,8 @@ header {
 .about-box {
   width: 250px;
   height: 225px;
-  padding: 30px;
-  margin: 4.878048% 1.626016% 4.878048% 1.626016%;
+  padding: 4.0%;
+  margin: 5% 2% 5% 2%;
   background-color: #eeeeee;
   float: left;
 }
@@ -186,8 +189,26 @@ footer h1 {
   padding-top: 2.032520%;
 }
 
-/* On devices wider than 660px */
-@media(min-width: 660px) {
+/* On devices less than 660px */
+@media(max-width: 660px) {
+  .logo h1 {
+    font-size: 1.375em;
+  }
+  .about-container {
+    width:inherit;
+    float: none;
+    margin: 0 auto;
+  }
+  .about-box {
+    height:auto;
+    float: none;
+    margin: 20px auto;
+  }
+  .intro {
+    width: auto;
+    margin: 0% 10%;
+  }
+
 }
 
 /* On devices wider than 940px */
