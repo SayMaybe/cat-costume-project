@@ -46,10 +46,10 @@ abbr,acronym { border:0;
   margin: 50px 100px 50px 100px;
   width:100%;
 }*/
-@media only screen and (min-width: 961px) {
   .container {
-    width: 1230px;
-    margin: 0 auto;
+    width: 100%;
+    max-width: 1230px;
+    margin: 40px auto;
 }
 h1 {
   font-family: 'PT Sans Narrow Bold', sans-serif;
@@ -123,7 +123,8 @@ header {
   width: 100%;
 }
 .about-container {
-  width: 700px;
+  width: 47.96747967479675%;
+  max-width: 700px;
   margin: 0 auto;
   padding: 0;
 }
@@ -140,15 +141,15 @@ header {
   padding-bottom: 25px;
 }
 
-.img {
+.img-container {
   width: 875px;
-  text-align:center;
+  margin: 0 auto;
 }
-.img li {
+.img-container li {
   display: inline;
   margin: 20px;
 }
-.img li img {
+.img-container li img {
   border-radius: 50%;
 }
 .in-touch-container {
