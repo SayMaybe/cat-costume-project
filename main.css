@@ -235,6 +235,16 @@ footer h1 {
   .img-container li {
     margin:0 0 30px 0;
   }
+  .contact-container {
+    width:inherit;
+    float: none;
+    margin: 0 auto;
+  }
+  .contact-box {
+    height:auto;
+    float: none;
+    margin: 20px auto;
+  }
 
 }
 
